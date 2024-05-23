@@ -1,4 +1,4 @@
-# CCNA <img width=300px src="https://img.shields.io/badge/CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white">
+# CCNA <img width=100px src="https://img.shields.io/badge/CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white">
 
 
 CCNA(Cisco Certified Network Associate)
