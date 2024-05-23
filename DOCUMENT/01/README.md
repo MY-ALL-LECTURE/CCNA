@@ -2,11 +2,13 @@
 
 CCNA란
 ---
-> CCNA는 Cisco Certified Network Associate <br>
+> CCNA는(Cisco Certified Network Associate) <br>
 
 |-|
 |-|
-|-|
+|<img src="" />|
+
+
 
 ```
 ```
@@ -59,6 +61,32 @@ CCNA 시험 응시방법
 |-|
 |-|
 |-|
+
+
+---
+#
+---
+
+수업진행방식
+---
+> <br>
+
+|-|
+|-|
+|-|
+
+
+
+참고링크
+---
+> <br>
+
+|-|-|
+|-|-|
+|CCNA 공식 HOME|[바로가기]()|
+|CCNA Blog HOME|[바로가기](https://blogs.cisco.com/)|
+|피어슨 뷰 시험센터 HOME|[바로가기](https://korea.pearsonvue.com/)|
+
 
 ```
 
