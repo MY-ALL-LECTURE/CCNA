@@ -7,6 +7,9 @@ CCNA(Cisco Certified Network Associate)
 |:-:|
 |<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/3c3cb17c-233f-42a3-a9aa-d420b059e24f" />|
 |시험코드 : 200-301 / [관련링크](https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/ccna-200-301.html)|
+|시험시간 : 120 분|
+|지원언어 : English, Japanese|
+|시험비용 : $300 USD, plus tax|
 |네트워킹 기초 지식을 갖춘 엔트리 레벨 네트워크 엔지니어를 대상|
 |네트워크 인프라의 설치, 설정, 운영, 및 문제 해결 능력을 검증하는 자격증|
 
