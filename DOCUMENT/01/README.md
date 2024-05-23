@@ -2,7 +2,7 @@
 
 CCNA란
 ---
-> <br>
+> CCNA는 Cisco Certified Network Associate <br>
 
 |-|
 |-|
