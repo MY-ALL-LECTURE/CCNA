@@ -5,7 +5,7 @@ CCNA란
 > CCNA는(Cisco Certified Network Associate) <br>
 
 |-|
-|-|
+|:-:|
 |<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/3c3cb17c-233f-42a3-a9aa-d420b059e24f" />|
 |네트워킹 기초 지식을 갖춘 엔트리 레벨 네트워크 엔지니어를 대상|
 |네트워크 인프라의 설치, 설정, 운영, 및 문제 해결 능력을 검증하는 자격증|
