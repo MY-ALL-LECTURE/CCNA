@@ -80,17 +80,20 @@ CCNA Associate 커리큘럼
 ---
 > <br>
 
-|-|
-|-|
-|-|
-
+|-|-|-|
+|-|-|-|
+|1 Network fundamentals(네트워크 기초)|-|-|
+|2 Network access(네트워크 접근)|-|-|
+|3 IP connectivity(IP 연결성)|-|-|
+|4 IP services(IP 서비스)|-|-|
+|5 Security fundamentals(보안 기초)|-|-|
+|6 Automation and programmability(자동화 및 프로그래밍)|-|-|
 ```
-1 Network fundamentals
-2 Network access
-3 IP connectivity
-4 IP services
-5 Security fundamentals
-6 Automation and programmability
+
+
+
+
+
 ```
 
 ---
