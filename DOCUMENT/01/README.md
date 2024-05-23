@@ -10,9 +10,7 @@ CCNA란
 
 |-|
 |-|
-|<img src="" />|
-
-
+|<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/3c3cb17c-233f-42a3-a9aa-d420b059e24f" />|
 
 ```
 ```
