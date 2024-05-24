@@ -5,6 +5,7 @@
 ---
 
 > 네트워크 모델 확인<br>
+
 |-|
 |-|
 |![20240524234219](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/23a2add9-934c-44a8-b737-3a9a8a05f12f)|
@@ -63,7 +64,11 @@ RIP,EIGRP,OSPF,ISIS,BGP,Static Routing ...
 |![20240524234718](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/b25db8d3-62c6-4537-9b0c-12c34c76cae3)|
 
 
-
-
+---
+#
+---
+|문제|
+|-|
+|[바로가기](01.md)|
 
 
