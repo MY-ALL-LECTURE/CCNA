@@ -84,16 +84,16 @@ CABLE
 
 
 ![download](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/45ffa1e2-6b47-48b8-a0af-8df6af667ed3)
-```
 이더넷 케이블 (Ethernet Cable)
-
 ```
-UTP (Unshielded Twisted Pair): 
-  가장 흔히 사용되는 네트워크 케이블로, 카테고리별로 나뉩니다. 예를 들어, Cat5e, Cat6, Cat6a, Cat7 등이 있습니다. 
-  UTP 케이블은 일반적으로 사무실이나 가정에서 사용됩니다.
+ UTP (Unshielded Twisted Pair): 
+   가장 흔히 사용되는 네트워크 케이블로, 카테고리별로 나뉩니다. 예를 들어, Cat5e, Cat6, Cat6a, Cat7 등이 있습니다. 
+   UTP 케이블은 일반적으로 사무실이나 가정에서 사용됩니다.
+ 
+ STP (Shielded Twisted Pair): 
+   UTP와 비슷하지만, 외부 간섭을 줄이기 위해 차폐(shield)가 추가된 케이블입니다. 간섭이 많은 환경에서 사용됩니다.
+```
 
-STP (Shielded Twisted Pair): 
-  UTP와 비슷하지만, 외부 간섭을 줄이기 위해 차폐(shield)가 추가된 케이블입니다. 간섭이 많은 환경에서 사용됩니다.
 ```
 
 
