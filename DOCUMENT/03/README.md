@@ -18,7 +18,7 @@ TP(Twisted-Pair Cable)을 사용
 랜케이블 단자
 이더넷을 지원하는 단자 사이에서 표준이 된 단자
 ```
-![20240525000844](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/7fb465f0-1a37-45ad-bd4c-bbcc5a15cc5b)
+<img width=450px src="./IMG/1.png"/>
 
 > LAN 케이블 종류<br>
 ```
@@ -26,7 +26,7 @@ UTP(Unshielded Twisted Pair) : 차폐 기능이 없는 기본적인 랜선을 �
 FTP(Foil screened Twisted Pair) : 피복 안쪽에 호 일로 한 번 감싸지고 그 호일 안쪽에 구리접지선을 추가한 형 태를 한다. 이론상 150 m의 거리를 가진다.
 STP(Shielded Twisted Pair) : FTP에 꼬여있는 구리선을 한 묶음으로 나누어 한 번 더 호일을 감싸 준 형태이다
 ```
-![20240525001003](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/8c847664-206b-4508-883b-40ba40a90df1)
+<img width=450px src="./IMG/2.png"/>
 
 
 ---
@@ -38,25 +38,24 @@ STP(Shielded Twisted Pair) : FTP에 꼬여있는 구리선을 한 묶음으로 �
 
 >LAN 케이블 배열형태<br>
 
-![20240525001052](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/d7068035-a978-4ded-8fb2-95d3dd6eafa8)
+<img width=450px src="./IMG/3.png"/>
 
 >크로스오버 케이블(Cross-Over Cable)<br>
 
-![20240525001147](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/8fb99a90-6ba5-4d59-b9be-6da380da0af7)
-![20240525001153](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/ad8bc816-da97-4aac-931b-8f97375d2533)
+<img width=450px src="./IMG/4.png"/>
+<img width=450px src="./IMG/5.png"/>
 
 > 다이렉트 케이블(Straight-through Cable)<br>
 
-![20240525001305](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/8ce79a2e-cc0a-4b7c-9393-1f22eff055f7)
+<img width=450px src="./IMG/6.png"/>
 
-![20240525001311](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/b0dec562-38c1-4c81-9639-5c715305d454)
+<img width=450px src="./IMG/7.png"/>
 
 > 롤오버 케이블(Straight-through Cable)<br>
 
-![20240525001401](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/fca0b47d-5b44-402a-bfe0-ae3edafd8252)
+<img width=450px src="./IMG/8.png"/>
 
-![20240525001409](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/5d8955dc-13d9-4c3f-82e6-785a7012c080)
-
+<img width=450px src="./IMG/9.png"/>
 
 ---
 #
