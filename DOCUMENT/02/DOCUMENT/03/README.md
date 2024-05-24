@@ -8,7 +8,7 @@
 
 |-|
 |-|
-|![20240524234219](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/23a2add9-934c-44a8-b737-3a9a8a05f12f)|
+|![20240524234219](./IMG/1.png)|
 
 > 네트워크 계층 역할<br>
 ```
@@ -61,7 +61,7 @@ RIP,EIGRP,OSPF,ISIS,BGP,Static Routing ...
 
 |-|
 |-|
-|![20240524234718](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/b25db8d3-62c6-4537-9b0c-12c34c76cae3)|
+|![20240524234718](./IMG.2.png)|
 
 
 ---
