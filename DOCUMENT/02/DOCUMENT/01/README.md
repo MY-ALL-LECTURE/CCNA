@@ -30,12 +30,44 @@ Ex) 핀들의 배치나 전압, 전선의 명세 등이 이 계층에 포함
 |허브|<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/1bef11d4-d391-4ca7-809b-256dfad7ba17" />|허브는 네트워크 장치들을 연결하여 데이터를 중계하고 전송하는 역할을 합니다.<br>이전에는 네트워크 허브가 많이 사용되었지만, 현재는 스위치로 대체되는 경향이 있습니다.<br>허브는 수신한 데이터를 네트워크에 연결된 모든 장치에게 브로드캐스트하는 반면, 스위치는 목적지 장치에게만 데이터를 전달합니다.|
  
 
-신호(SIGNAL)
+신호(SIGNAL) 란
 ---
-> - <br>
+> 부호란<br>
+```
+의미를 가지는 약속된 기호
+ex) ㄱ,ㅏ,ㅇ -> 강
+```
+|-|
+|-|
+|<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/27c68db4-98c0-4ffa-9ee1-d2854455ec49" />|
+
+> 디지털 부호란<br>
+```
+컴퓨터가 이해하는 부호 : 0,1(이산데이터)
+디지털 부호 : 0,1로 이루어진 약속된 부호
+```
 
 |-|
 |-|
+|<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/61b969d8-d889-495c-a196-641bc0a92325" /> |
+
+> 신호란<br>
+```
+원격지로의 부호 전달
+서로 떨어져 있는곳에서 부호를 써서
+```
+
 |-|
+|-|
+|<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/041e787e-54ea-479a-a8ee-0ab964fceff3" /> |
+
+> 신호전달에 필요한 요소<br>
+```
+부호 전달하기 위한 에너지 : 전기에너지
+부호 전달하기 위한 인프라 : 통신망
+```
+|-|
+|-|
+|<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/2215a1b1-a40f-4b51-a508-1313e71756b2" /> |
 
 
