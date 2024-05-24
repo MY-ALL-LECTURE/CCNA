@@ -90,8 +90,6 @@ CCNA Associate 커리큘럼
 
 CCNA Associate 상세 커리큘럼
 ---
-> 참고 <br>
-
 > Network fundamentals (20%)
 ```
 1.1 Explain the role and function of network components
