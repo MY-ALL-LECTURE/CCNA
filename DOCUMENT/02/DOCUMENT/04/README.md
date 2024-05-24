@@ -4,7 +4,9 @@
 ---
 
 > 네트워크 모델 확인<br>
-![20240524235718](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/45855814-eb1b-4468-b3ca-d335d0cadcbc)
+
+<img  width=400px src="./IMG/1.png" />
+
 
 > 전송계층 역할<br>
 ```
@@ -39,7 +41,8 @@ L4 SWITCH
 1 신뢰성 : 종단간 데이터 이상유무 확인
 2 연결지향 : 계속적인 데이터 교환을 위한 연결통로 설정
 ```
-![20240525000300](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/2f9f7e79-3870-4aec-80bb-c9af25325978)
+<img  width=400px src="./IMG/2.png" />
+
 
 
 > UDP(User Datagram Protocol)<br>
