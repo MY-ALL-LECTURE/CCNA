@@ -70,6 +70,48 @@ ex) ㄱ,ㅏ,ㅇ -> 강
 |-|
 |<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/2215a1b1-a40f-4b51-a508-1313e71756b2" /> |
 
+CABLE
+---
+> Cable 이란<br>
+
+```
+전기선
+전기를 이용해서 신호를 전달하는
+```
+
+> Cable 종류<br>
+
+```
+![download](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/45ffa1e2-6b47-48b8-a0af-8df6af667ed3)
+```
+
+```
+이더넷 케이블 (Ethernet Cable)
+
+UTP (Unshielded Twisted Pair): 가장 흔히 사용되는 네트워크 케이블로, 카테고리별로 나뉩니다. 예를 들어, Cat5e, Cat6, Cat6a, Cat7 등이 있습니다. UTP 케이블은 일반적으로 사무실이나 가정에서 사용됩니다.
+STP (Shielded Twisted Pair): UTP와 비슷하지만, 외부 간섭을 줄이기 위해 차폐(shield)가 추가된 케이블입니다. 간섭이 많은 환경에서 사용됩니다.
+
+광섬유 케이블 (Fiber Optic Cable)
+싱글모드(Single-Mode Fiber, SMF): 긴 거리 전송에 적합하며, 주로 통신 사업자나 대규모 데이터 센터에서 사용됩니다.
+멀티모드(Multi-Mode Fiber, MMF): 짧은 거리에서 높은 대역폭을 제공하며, 일반적으로 건물 내 또는 캠퍼스 네트워크에서 사용됩니다.
+
+동축 케이블 (Coaxial Cable)
+
+주로 케이블 TV 네트워크와 같은 특수한 애플리케이션에서 사용되며, 데이터 전송에도 사용될 수 있습니다. 과거에는 이더넷 네트워크에서도 사용되었습니다 (예: 10BASE2, 10BASE5).
+
+```
+
+|-|-|-|
+|-|-|-|
+|-|-|-|
+|-|-|-|
+|-|-|-|
+|-|-|-|
+|-|-|-|
+
+
+---
+
 
 문제
 ---
