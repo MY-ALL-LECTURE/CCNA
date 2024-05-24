@@ -8,7 +8,7 @@
 
 |-|
 |-|
-|![20240524234219](./IMG/1.png)|
+|<img width=400px src="./IMG/1.png" />|
 
 > 네트워크 계층 역할<br>
 ```
@@ -61,7 +61,7 @@ RIP,EIGRP,OSPF,ISIS,BGP,Static Routing ...
 
 |-|
 |-|
-|![20240524234718](./IMG.2.png)|
+|![20240524234718](./IMG/2.png)|
 
 
 ---
