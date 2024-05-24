@@ -40,11 +40,22 @@ STP(Shielded Twisted Pair) : FTP에 꼬여있는 구리선을 한 묶음으로 �
 
 ![20240525001052](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/d7068035-a978-4ded-8fb2-95d3dd6eafa8)
 
->크로스오버 케이블<br>
+>크로스오버 케이블(Cross-Over Cable)<br>
 
 ![20240525001147](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/8fb99a90-6ba5-4d59-b9be-6da380da0af7)
 ![20240525001153](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/ad8bc816-da97-4aac-931b-8f97375d2533)
 
+> 다이렉트 케이블(Straight-through Cable)<br>
+
+![20240525001305](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/8ce79a2e-cc0a-4b7c-9393-1f22eff055f7)
+
+![20240525001311](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/b0dec562-38c1-4c81-9639-5c715305d454)
+
+> 롤오버 케이블(Straight-through Cable)<br>
+
+![20240525001401](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/fca0b47d-5b44-402a-bfe0-ae3edafd8252)
+
+![20240525001409](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/5d8955dc-13d9-4c3f-82e6-785a7012c080)
 
 
 
