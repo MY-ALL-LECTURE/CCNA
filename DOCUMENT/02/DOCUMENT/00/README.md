@@ -14,12 +14,6 @@ NETWORK : 망을 만드는 작업
 |-|-|
 |<img width=500px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/ed5590f1-6863-451a-b15a-094ea9a9b993"/>|<img width=500px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/e741a4f3-2b80-4a6a-978c-1e93c9e52233" />|
 
- 
-
-
-```
-```
-
 ---
 #
 ---
@@ -40,21 +34,24 @@ NETWORK 연결형태
 |-|MESH형|네트워크상의 모든 노드를 상호 연결<br>통신선로의 총길이가 가장 긴 네트워크 구조<br>초기 데이타 통신 네트워크의 전형적인 형태<br>공중통신망에 많이 사용|
 |-|BUS형|어떠한 통신망에서 선을 따 통신선으로 끌어다가 쓰는 방식이다. 멀티탭의 원리와 동일하다고 보면 된다.<br>필요할때마다 선을 끌어쓰면 되기 때문에 기기가 추가될때마다 <br>추가적인 회선을 깔 필요가 없어져 구축비용을 아낄 수 있다. <br>하지만 한 선에 데이터가 몰리게 된다면, 병목 현상이 일어나게 된다|
 
-```
-```
 
 ---
 #
 ---
 
-
 NETWORK 종류
 ---
-> <br>
+> LAN(Local Area Network <br>
 
-|-|
-|-|
-|-|
+|SOHO|CAMPUS LAN|ENTERPRISE LAN|
+|-|-|-|
+|![SOHO with single device](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/ef7c0acd-8f28-4721-af25-48dd40fb8171)|![57154_12357_1233](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/09352062-fbca-409c-9faf-73c743096fa8)
+|![campus-network-illu](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/514c0fc1-b828-478a-9724-41911bcb8be0)|
+
+
+
+```
+```
 
 ```
 ```
