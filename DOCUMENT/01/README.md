@@ -289,7 +289,7 @@ CCNA 시험 응시방법
 |-|-|
 |-|-|
 |시험응시방법|[피어슨뷰가입하기](https://blog.naver.com/ysorkr/221469677931)<br>[CCNA응시신청하기](https://blog.naver.com/ysorkr/221470642314)|
-|-|-|
+
 
 
 ---
@@ -320,6 +320,8 @@ CCNA 시험 응시방법
 |CCNA 공식 HOME|[바로가기]()|
 |CCNA Blog HOME|[바로가기](https://blogs.cisco.com/)|
 |피어슨 뷰 시험센터 HOME|[바로가기](https://korea.pearsonvue.com/)|
+|-|-|
+|CCNA문제풀기|[바로가기](https://www.examtopics.com/exams/cisco/200-301/view/1/)<br>[바로가기](https://itexamanswers.net/ccna-200-301-dumps-full-questions-exam-study-guide-free.html)|
 
 
 ```
