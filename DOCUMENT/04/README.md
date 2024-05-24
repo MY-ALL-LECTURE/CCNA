@@ -43,8 +43,24 @@ IP주소 표현
 |최소값(10진수)|0|0|0|0|
 |최대값(10진수)|255|255|255|255|
 
->미니문제 [바로가기](./문제/01.md)<br>
+>미니문제 - > [바로가기](./문제/01.md)<br>
 
+---
+#
+---
 
+NETWORK IP / HOST IP
+---
 
+>NETWORK IP<br>
+```
+네트워크 영역 식별 IP
+```
+![20240525003523](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/8ad7be96-4272-4192-92f2-4a27d5cf5da2)
+
+>HOST IP<br>
+```
+호스트간 식별 IP
+```
+![20240525003529](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/7d5dd64a-7b97-4cbb-904d-ed2c3b279216)
 
