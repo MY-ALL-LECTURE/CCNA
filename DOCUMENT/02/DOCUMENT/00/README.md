@@ -45,10 +45,11 @@ NETWORK 종류
 
 |SOHO|CAMPUS LAN|ENTERPRISE LAN|
 |-|-|-|
-|![SOHO with single device](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/ef7c0acd-8f28-4721-af25-48dd40fb8171)|![57154_12357_1233](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/09352062-fbca-409c-9faf-73c743096fa8)
-|![campus-network-illu](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/514c0fc1-b828-478a-9724-41911bcb8be0)|
+|-|-|-|
 
-
+<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/ef7c0acd-8f28-4721-af25-48dd40fb8171" />
+<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/09352062-fbca-409c-9faf-73c743096fa8" />
+<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/514c0fc1-b828-478a-9724-41911bcb8be0" />
 
 ```
 ```
