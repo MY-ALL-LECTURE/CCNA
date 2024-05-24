@@ -252,13 +252,33 @@ PROTOCOL
 #
 ---
 
-NETWORKING MODEL
+NETWORK MODEL
 ---
-> <br>
+> 네트워크 모델 <br>
+```
+네트워크를 구축하는 데 필요한 설계도
+효율적인 네트워크 설계를 위한 모델
+장애 발생시 문제 원인 탐색 용이
+```
 
-|-|
-|-|
-|-|
+> 네트워크 모델의 변화 <br>
+```
+1 공급업체들간의 각각 다른 형태의 네트워크 모델이 존재
+2 OSI 7Layer 통한 전세계 모든 컴퓨터 네트워킹의 표준화 모델제시
+3 현재는 TCP/IP 모델을 현재는 널리 사용
+```
+
+
+
+
+
+|-|-|-|
+|-|-|-|
+|<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/d3ad8ba9-12c2-4367-8da1-534f86334ce2" />|<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/31f69ff6-01de-41b2-b8e6-0c0cef66d380" />|<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/11aff59b-77bb-47cb-b7b4-fa6622654ebb" />|
+
+
+
+
 
 ```
 ```
