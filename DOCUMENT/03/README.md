@@ -37,7 +37,15 @@ STP(Shielded Twisted Pair) : FTP에 꼬여있는 구리선을 한 묶음으로 �
 ---
 
 >LAN 케이블 배열형태<br>
+
 ![20240525001052](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/d7068035-a978-4ded-8fb2-95d3dd6eafa8)
+
+>크로스오버 케이블<br>
+
+![20240525001147](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/8fb99a90-6ba5-4d59-b9be-6da380da0af7)
+![20240525001153](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/ad8bc816-da97-4aac-931b-8f97375d2533)
+
+
 
 
 
