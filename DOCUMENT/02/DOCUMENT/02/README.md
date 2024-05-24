@@ -34,7 +34,11 @@ Bridge
 무선 액세스 포인트 (Wireless Access Point)
 ```
 
-데이터 링크 프로토콜
+---
+#
+---
+
+데이터 링크에 사용되는 프로토콜
 ---
 
 > LAN<br>
@@ -76,6 +80,12 @@ HDLC (High-Level Data Link Control):
   주로 점대점(point-to-point) 연결에 사용됩니다.
 
 ```
+
+---
+#
+---
+이더넷 프로토콜
+---
 
 
 
