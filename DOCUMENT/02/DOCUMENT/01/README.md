@@ -71,3 +71,10 @@ ex) ㄱ,ㅏ,ㅇ -> 강
 |<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/2215a1b1-a40f-4b51-a508-1313e71756b2" /> |
 
 
+문제
+---
+
+|-|
+|-|
+|[바로가기](./01.md)|
+
