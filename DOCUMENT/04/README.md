@@ -5,10 +5,10 @@ IPv4 기본
 
 > BIT/BYTE <br>
 
-|-|-|-|
-|-|-|-|
-|**Bit**|Binary Digit, 비트<br>아라비아숫자(0-9)를 2진수(Binary)로 변환 표현할때 표현되는 한자리|-|
-|Byte(또는 Octet(옥텟)|8bit의 1묶음|-|
+|-|-| 
+|-|-| 
+|**Bit**|Binary Digit 비트<br>아라비아숫자(0-9)를 2진수(Binary)로 변환 표현할때 표현되는 한자리|  
+|Byte(또는 Octet(옥텟)|8bit의 1묶음| 
 
 > > 참고 <br>
 ```
