@@ -81,10 +81,10 @@ CABLE
 ```
 
 > Cable 종류<br>
-
+이더넷 케이블 (Ethernet Cable)
 
 ![download](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/45ffa1e2-6b47-48b8-a0af-8df6af667ed3)
-이더넷 케이블 (Ethernet Cable)
+
 ```
  UTP (Unshielded Twisted Pair): 
    가장 흔히 사용되는 네트워크 케이블로, 카테고리별로 나뉩니다. 예를 들어, Cat5e, Cat6, Cat6a, Cat7 등이 있습니다. 
