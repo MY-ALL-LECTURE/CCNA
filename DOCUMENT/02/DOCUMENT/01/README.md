@@ -81,7 +81,8 @@ CABLE
 ```
 
 > Cable 종류<br>
-이더넷 케이블 (Ethernet Cable)
+
+> > 이더넷 케이블 (Ethernet Cable)<br>
 
 ![download](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/45ffa1e2-6b47-48b8-a0af-8df6af667ed3)
 
@@ -94,18 +95,21 @@ CABLE
    UTP와 비슷하지만, 외부 간섭을 줄이기 위해 차폐(shield)가 추가된 케이블입니다. 간섭이 많은 환경에서 사용됩니다.
 ```
 
+> > 광섬유 케이블 (Fiber Optic Cable)<br>
+![download](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/c94afb5a-8419-43ea-86c6-af120fb15dc5)
+
 ```
-
-
-
-
-광섬유 케이블 (Fiber Optic Cable)
 싱글모드(Single-Mode Fiber, SMF): 긴 거리 전송에 적합하며, 주로 통신 사업자나 대규모 데이터 센터에서 사용됩니다.
 멀티모드(Multi-Mode Fiber, MMF): 짧은 거리에서 높은 대역폭을 제공하며, 일반적으로 건물 내 또는 캠퍼스 네트워크에서 사용됩니다.
+```
 
-동축 케이블 (Coaxial Cable)
+> > 동축 케이블 (Coaxial Cable)<br>
 
-주로 케이블 TV 네트워크와 같은 특수한 애플리케이션에서 사용되며, 데이터 전송에도 사용될 수 있습니다. 과거에는 이더넷 네트워크에서도 사용되었습니다 (예: 10BASE2, 10BASE5).
+![download](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/e6305787-ad14-417c-acfb-2ee34370e61c)
+
+```
+주로 케이블 TV 네트워크와 같은 특수한 애플리케이션에서 사용되며, 데이터 전송에도 사용될 수 있습니다.
+과거에는 이더넷 네트워크에서도 사용되었습니다 (예: 10BASE2, 10BASE5).
 
 ```
 
