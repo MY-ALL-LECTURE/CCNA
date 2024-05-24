@@ -276,9 +276,9 @@ NETWORK MODEL
 |-|-|-|
 |<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/d3ad8ba9-12c2-4367-8da1-534f86334ce2" />|<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/31f69ff6-01de-41b2-b8e6-0c0cef66d380" />|<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/11aff59b-77bb-47cb-b7b4-fa6622654ebb" />|
 
-
-
-
+|-|
+|-|
+|<img src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/397bf1fc-0796-40db-a10e-28f6bba5abcd" />|
 
 ```
 ```
