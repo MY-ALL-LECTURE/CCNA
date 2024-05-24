@@ -279,7 +279,7 @@ NETWORK MODEL
 
 |-|
 |-|
-|<img width=300px src="./IMG/11.png"/>|
+|<img src="./IMG/11.png"/>|
 
 ```
 ```
