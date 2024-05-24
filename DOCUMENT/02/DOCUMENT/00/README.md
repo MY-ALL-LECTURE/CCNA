@@ -13,7 +13,7 @@ NETWORK : 망을 만드는 작업
 
 |-|-|
 |-|-|
-|<img width=500px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/ed5590f1-6863-451a-b15a-094ea9a9b993"/>|<img width=500px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/e741a4f3-2b80-4a6a-978c-1e93c9e52233" />|
+|<img width=500px src="./IMG/1.png"/>|<img width=500px src="./IMG/2.png" />|
 
 ---
 #
@@ -25,7 +25,7 @@ NETWORK 연결형태
 
 |-|
 |-|
-|![450px-NetworkTopologies](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/cdb11266-d95f-44b0-81bd-17081007923b)|
+|<img width=500px src="./IMG/3.png"/>|
 
 |-|-|-|
 |-|-|-|
@@ -93,7 +93,7 @@ AN(근거리 통신망)은 비교적 작은 지리적 범위 내에 있는 컴�
 
 |SOHO|CAMPUS LAN|ENTERPRISE LAN|
 |-|-|-|
-|<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/ef7c0acd-8f28-4721-af25-48dd40fb8171" />|<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/09352062-fbca-409c-9faf-73c743096fa8" />|<img width=300px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/514c0fc1-b828-478a-9724-41911bcb8be0" />|
+|<img width=300px src="./IMG/4.png"/>|<img width=300px src="./IMG/5.png"/>|<img width=300px src="./IMG/6.png"/>|
 |SOHO는 소규모 사무실 또는 가정 사무실<br>개인 사업자, 프리랜서, 소규모 기업 등이 주로 사용하는 네트워크 환경<br>작고 간단하지만, 안정적이고 효율적인 업무 처리를 위해 신뢰성과 보안이 중요|대학교, 기업 캠퍼스와 같은 넓은 지역을 커버하는 LAN으로, 여러 건물을 연결하는 대규모 LAN<br>고성능 백본 네트워크를 통해 여러 빌딩의 네트워크를 통합 관리<br>대규모 사용자 지원, 높은 대역폭 제공|대규모 기업 환경에서 사용되는 근거리 통신망<br>다양한 지점이나 부서, 빌딩을 연결하여 고성능, 보안성, 확장성을 제공하는 네트워크|
 
 ```
