@@ -28,6 +28,10 @@ NETWORK 연결형태
 ---
 > <br>
 
+|-|
+|-|
+|![450px-NetworkTopologies](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/cdb11266-d95f-44b0-81bd-17081007923b)|
+
 |-|-|-|
 |-|-|-|
 |-|RING형|각 링크가 단방향이어서 데이타는 한 방향으로만 전송<br>각 노드는 데이타의 송수신을 제어하는 엑세스 제어논리(토큰)을 보유|
