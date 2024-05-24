@@ -298,16 +298,13 @@ CCNA 시험 응시방법
 
 수업진행방식
 ---
-> 수업시간 50분 쉬는시간 10분 <br>
+> 수업시간 50분 쉬는시간 10분 입니다. <br>
 
 > - <br>
 
 > - <br>
 
 > - <br>
-
-
-
 
 
 
@@ -317,22 +314,10 @@ CCNA 시험 응시방법
 
 |-|-|
 |-|-|
-|CCNA 공식 HOME|[바로가기]()|
+|CCNA 공식 HOME|[바로가기](https://www.cisco.com/c/ko_kr/index.html)|
 |CCNA Blog HOME|[바로가기](https://blogs.cisco.com/)|
 |피어슨 뷰 시험센터 HOME|[바로가기](https://korea.pearsonvue.com/)|
 |-|-|
 |CCNA문제풀기|[바로가기](https://www.examtopics.com/exams/cisco/200-301/view/1/)<br>[바로가기](https://itexamanswers.net/ccna-200-301-dumps-full-questions-exam-study-guide-free.html)|
-
-
-```
-
-
-
-
-
-CCNA 관련 참고 LINK
-
-
-```
 
 
