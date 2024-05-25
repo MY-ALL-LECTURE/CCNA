@@ -10,5 +10,4 @@ LAN 환경에서는 MAC 주소를 기반으로 통신하기 때문에 ARP는 IP 
 
 > 네트워크 모델 확인<br>
 
-![20240525234138](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/47b73ea2-aaae-4145-a8a6-e9cf896e70a6)
-
+<img width=400px src="https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/47b73ea2-aaae-4145-a8a6-e9cf896e70a6" />
