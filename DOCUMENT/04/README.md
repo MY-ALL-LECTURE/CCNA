@@ -123,5 +123,26 @@ Class 라는 규격화된 구분없이 비트(bit) 단위별로 IP 주소 범위
 
 ![20240525102915](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/4ae95582-a2aa-43d6-973a-b2c65a7e4556)
 
+> 클래스풀 정리<br>
+
+![20240525103053](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/9c4b1ae1-041e-4472-bd40-669ce4cb4ba5)
+
+
+---
+#
+---
+
+IPv4 통신방식
+---
+![20240525103229](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/9a95d296-c0c3-411b-bec6-3e3569118c59)
+
+
+---
+#
+---
+
+|문제|
+|-|
+|[바로가기](./)|
 
 
