@@ -119,8 +119,9 @@ SUBNET MASK
 > 클래스리스란(CLassless)<br>
 ```
 Class 라는 규격화된 구분없이 비트(bit) 단위별로 IP 주소 범위를 가변적으로 구현
-``
+```
 
 ![20240525102915](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/4ae95582-a2aa-43d6-973a-b2c65a7e4556)
+
 
 
