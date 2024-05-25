@@ -15,8 +15,8 @@ INDEX
 |ICMPv4|[바로가기](./DOCUMENT/05)|-|
 |ARP|[바로가기](./DOCUMENT/06)|-|
 |ROUTER 기본|[바로가기](./DOCUMENT/07)|-|
-|라우팅(Static Routing|[바로가기](./DOCUMENT/08)|-|
-|라우팅(Dynamic Routing|[바로가기](./DOCUMENT/09)|-|
+|라우팅(Static Routing)|[바로가기](./DOCUMENT/08)|-|
+|라우팅(Dynamic Routing)|[바로가기](./DOCUMENT/09)|-|
 |SUBNETTING|[바로가기](./DOCUMENT/10)|-|
 |VLAN|[바로가기](./DOCUMENT/11)|-|
 |SERVER SERVICES|[바로가기](./DOCUMENT/12)|-|
@@ -30,6 +30,7 @@ INDEX
 |HSRP|[바로가기](./DOCUMENT/20)|-|
 |IPv6|[바로가기](./DOCUMENT/21)|-|
 |IPSec VPN|[바로가기](./DOCUMENT/22)|-|
+|WIRELESS NETWORK|[바로가기](./DOCUMENT/23)|-|
 
 REFERENCE
 ---
@@ -38,9 +39,4 @@ REFERENCE
 |-|-|
 |-|[바로가기](https://www.examtopics.com/exams/cisco/200-301/view/1/)|
 |-|[바로가기](https://itexamanswers.net/ccna-200-301-dumps-full-questions-exam-study-guide-free.html)|
-
-
-
-[유데미](https://www.udemy.com/course/cisco-ccna-complete-guide-korean/?couponCode=LEADERSALE24A#reviews)
-
 
