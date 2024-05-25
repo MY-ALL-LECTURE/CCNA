@@ -15,8 +15,8 @@ INDEX
 |ICMPv4|[바로가기](./DOCUMENT/05)|-|
 |ARP|[바로가기](./DOCUMENT/06)|-|
 |ROUTER 기본|[바로가기](./DOCUMENT/07)|-|
-|라우팅(Static Routing|[바로가기](./DOCUMENT/08)|-|
-|라우팅(Dynamic Routing|[바로가기](./DOCUMENT/09)|-|
+|라우팅(Static Routing)|[바로가기](./DOCUMENT/08)|-|
+|라우팅(Dynamic Routing)|[바로가기](./DOCUMENT/09)|-|
 |SUBNETTING|[바로가기](./DOCUMENT/10)|-|
 |VLAN|[바로가기](./DOCUMENT/11)|-|
 |SERVER SERVICES|[바로가기](./DOCUMENT/12)|-|
