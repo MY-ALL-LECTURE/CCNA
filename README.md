@@ -30,6 +30,7 @@ INDEX
 |HSRP|[바로가기](./DOCUMENT/20)|-|
 |IPv6|[바로가기](./DOCUMENT/21)|-|
 |IPSec VPN|[바로가기](./DOCUMENT/22)|-|
+|Wireless|[바로가기](./DOCUMENT/23)|-|
 
 REFERENCE
 ---
