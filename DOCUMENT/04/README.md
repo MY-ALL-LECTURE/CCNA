@@ -15,7 +15,17 @@ IPv4 기본
 Nibble(니블)
   - 4bit의 1 묶음
 Word(워드)
-  - Full Word : 4byte - Half Word : 8byte - Double Word : 8byte
+    32비트 아키텍처의 경우: 4바이트
+    64비트 아키텍처의 경우: 8바이트
+
+Half word:
+    32비트 아키텍처의 경우: 2바이트
+    64비트 아키텍처의 경우: 4바이트
+
+Double word:
+    32비트 아키텍처의 경우: 8바이트
+    64비트 아키텍처의 경우: 16바이트
+
 Character(문자)
   - 통상 ASCII 방식으로 1문자를 1byte로 표현
 ```
