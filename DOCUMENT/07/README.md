@@ -15,7 +15,8 @@
 
 |-|
 |-|
-|-|
+|![20240526092254](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/1a0b833e-1fe7-476a-9e67-7c4e7bf4f9d7)
+|
 
 > 라우터 부팅순서<br>
 ```
