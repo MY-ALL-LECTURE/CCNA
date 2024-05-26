@@ -1,7 +1,7 @@
 # DYNAMIC ROUTING PROTOCOL
 
 
-INDEX
+상세 이동
 ---
 |-|-|
 |-|-|
