@@ -63,4 +63,4 @@ IOS(Internetwork Operation System)
 
 |-|
 |-|
-|-|
+|![20240526092602](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/1ccf34aa-76d9-4f1c-a158-9b5ea0edaccd)|
