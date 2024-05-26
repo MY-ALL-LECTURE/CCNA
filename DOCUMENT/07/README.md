@@ -64,3 +64,53 @@ IOS(Internetwork Operation System)
 |-|
 |-|
 |![20240526092602](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/1ccf34aa-76d9-4f1c-a158-9b5ea0edaccd)|
+
+---
+#
+---
+
+기본 명령어
+---
+> 모드 진입명령어<br>
+
+```
+enable : 특권 모드 전환
+disable : 일반 사용자 모드 전환
+config terminal : 전역설정 모드 전환
+interface 포트라벨:Interface 설정 모드 전환
+exit : 하위 모드로 나가기
+end : 특권 모드로 복귀
+```
+
+> 라우팅 관련명령어<br>
+
+```
+show ip route : 라우팅 테이블 확인
+router : 동적 라우팅 프로토콜 사용
+net [NetworkIP] : 동적 라우팅 프로토콜에 네트워크 등록
+show ip protocols : 라우팅 프로토콜 관련 정보 확인
+ip route ~ : 정적 라우팅 프로토콜 설정 
+```
+
+> 동작상태 확인명령어<br>
+```
+[일반 사용자 모드]
+  show clock 
+  show history 
+  show hosts 
+  show sessions 
+  show snmp 
+  show terminal 
+  show users 
+  show version 등
+  show version 으로 알 수있는 것들
+  라우터 타입, IOS image, 시스템 동작시간, 현재 IOS 버젼, 장착된 인터페이스,메모리량 등
+[특권모드]
+  show ip interface
+  show interface 
+  show ip route 
+  show running-config
+  현재 설정된 상황을 종합적으로 보여줌
+  show startup-config
+```
+
