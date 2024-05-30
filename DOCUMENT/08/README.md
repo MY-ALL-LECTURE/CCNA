@@ -1,5 +1,72 @@
 # STATIC ROUTING
 
+라우팅 프로토콜
+---
+>라우팅 프로토콜이란 <br>
+```
+  ㅇ `라우터 간에 라우팅 정보의 교환` 및 `라우팅테이블의 유지관리`를
+     동적으로 수행하는 프로토콜
+```
+>라우팅 프로토콜의 필요 기능 및 요소  <br>
+```
+  ①  라우팅 수행 프로세스
+     - 라우팅 정보를 주고받기 위한 프로세스
+     - 최적 경로 계산 및 이를 라우팅 테이블에 기록하는 프로세스
+     - 토폴로지 변화를 감지하고 이를 자동으로 학습 반영하는 프로세스
+
+  ②  라우팅 테이블의 갱신관리
+     - 최적 경로 결정을 위한 알고리즘 및 프로세스들을 적용
+
+  ③  라우팅 알고리즘
+     - 최적 경로 산출을 하여가며 라우팅 테이블의 갱신,유지관리
+
+  ④  라우팅 프로토콜 메세지
+     - 라우팅 정보를 라우터들 간에 운반,전달,교환 등 
+```
+
+> 라우팅 프로토콜의 구분<br>
+```
+  ㅇ 알고리즘 또는 라우터끼리 공유하는 정보(Distance Vector, Link State)에 따라
+     - Distance Vector Routing Protocol
+       . RIP,  IGRP,  EIGRP
+     - Link State Routing Protocol
+       . OSPF,  IS-IS
+
+  ㅇ AS 내부간(Intra-domain), 외부간(Inter-domain) 구분방식에 따라
+     - AS 내부 라우터 간 : IGP
+      . RIP,  OSPF,  IS-IS
+     - AS 외부 라우터 상호간 : EGP
+       . EGP,  BGP,  IDRP
+
+  ㅇ 업체 종속적인 라우팅 프로토콜
+     - IGRP, EIGRP (시스코社)
+
+  ㅇ Classful 및 Classless 구분에 따라
+     - Classful Routing
+       . RIP v1,  IGRP
+     - Classless Routing
+       . RIP v2,  EIGRP,  OSPF,  BGP
+```
+
+> 라우팅 프로토콜의 성능 비교
+
+![20240530172423](https://github.com/MY-ALL-LECTURE/CCNA/assets/84259104/b3c15eb0-1966-4fd0-b0f9-5ab951702443)
+
+
+> 라우티 메트릭<br>
+```
+  ㅇ RIP         :  Hop Count (홉 카운트)
+  ㅇ OSPF        :  Link Cost (링크 비용) 
+     - 링크 대역폭,전송속도에 기초하여 계산되고, 16 비트 Metric 값(1~65,535)으로 표현
+  ㅇ IGRP, EIGRP :  Bandwidth,Delay,Load,Reliability,MTU를 조합하여 계산한 Cost가 가장 낮은 경로
+  ㅇ BGP         :  속성(Attribute)이라고 하는 네트워크 도달성(Reachability) 정보
+     - BGP Path Attribute : Next_Hop, Weight, Local Preference, AS_path, Origin type, MED 등
+```
+
+---
+#
+---
+
 정적인 라우팅 (Static Routing)
 ---
 > 정의<br>
