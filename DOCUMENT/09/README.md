@@ -5,8 +5,8 @@
 ---
 |-|-|
 |-|-|
-|IGP PROTOCOL|[바로가기]()|
-|EGP PROTOCOL|[바로가기]()|
+|IGP PROTOCOL|[바로가기](./DOCUMENT/01)|
+|EGP PROTOCOL|[바로가기](./DOCUMENT/02)|
 
 ---
 #
