@@ -2,7 +2,11 @@
 
 |-|
 |-|
-|[참고](https://blog.naver.com/sknbiz070/223078073604)|
+|[참고-VLAN기본](https://blog.naver.com/sknbiz070/223078073604)|
+|[참고-NativeVLAN](https://bignet.tistory.com/22)|
+|[참고-Inter VLAN](https://galid1.tistory.com/136)|
+|[참고-VTP](https://light-touch-fish.tistory.com/19)|
+|[참고-DTP](https://byeong9935.tistory.com/37)|
 
 
 VLAN이란
