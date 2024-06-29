@@ -1,108 +1,113 @@
-#NAT
+#ACL
 
 |참고|
 |-|
-|[바로가기](https://velog.io/@wlsdnjs156/CCNA-NAT)|
+|[바로가기](https://velog.io/@wlsdnjs156/CCNA-ACL1)|
 
 ```
-1. NAT (Network Address Translation)
+1. Access Control List
 
-  ㅇ IP 주소를 변환하는 기술
-     - 1개의 실제 공인 IP 주소에, 다량의 가상 사설 IP 주소를 할당 및 매핑하는,
-     - 1:1 또는 1:多 주소 변환(Address Translation) 방식
+  ㅇ [일반]
+     - 각각의 엔트리(개별항목)에 대한 접근 권한(누구에게 어떤 권한을 주는 등)을 설정하는 것
 
-  ※ NAT 및 DHCP 비교
-     - NAT  : 사설 IP 주소공간을 별도로 정하고는, IP 주소변환에 중점을 둠
-        . 기본적으로, 인터넷 상에 동일 IP 주소를 재사용할 수 있게 하는 것
-     - DHCP : 기확보된 공인 IP 주소들을 Pool화하여, 집단 공유하며 사용후 반납
-        . 기본적으로, 제한된 IP 주소를 여럿이 공유케 하여 절약하려는 것
+  ㅇ [네트워크]
+     - 라우터 등의 장비에서 `패킷 필터링`,`패킷 분류`를 결정짓는 일련의 규칙(Rules) 목록들
+        . 주로, 4 계층까지 제어 가능
 
 
-2. NAT의 사용 이유 및 유의점
+2. [네트워크]  접근제어의 대상이 되는 주요 파라미터들
 
-  ㅇ IPv4의 `IPv4 주소 고갈` 및 `라우팅 테이블 대형화 (Routing Scalability)`에 대한 해소책
+  ㅇ 송신지 주소, 목적지 주소 (IP 주소)
+  ㅇ 프로토콜의 종류
+  ㅇ 포트 번호
+  ㅇ 기타 파라미터 등
 
-  ㅇ 공인 IP 주소의 효율적 공유 및 절약
-     - 공인 IP 주소 사용시 ISP社를 바꿀 때 마다, 모든 컴퓨터 주소를 바꿔야하는 등의 단점 해소
 
-  ㅇ 또한, 주소변환을 통해 내부 사설망 보안 및 Load Balancing 등도 가능
-     - 통상, 방화벽 등과 결합되어 함께 기능 수행
-        . 내/외 주소변환 규칙을 외부에서 알 수 없으므로, 
-        . 내부 망에 대한 정보(내부망 주소,숫자 설정 등)가 외부에 노출 안됨 (프라이버시 보호,은닉)
-     - 주로, 외부망과 사설망 간에 연결점에 있는 라우터에서 수행됨
-
-  ㅇ 그러나, NAT은, IP 주소 변환 뿐만 아니라,
-     - IP 주소, TCP Checksum, UDP Checksum 등 서로 관련된 많은 부분도 함께 변경해야 하므로,
-        . 매 연결 단위로 연결 상태 정보를 필요로 하고, 
-        . 다수의 프로토콜 계층에 걸쳐 동작해야 할 필요가 있는 등
-     - FTP, SIP 등에서 문제 발생
-
-  ※ [참고] 
-     - NAT 문제 발생 유형들  ☞ RFC 3027 (Protocol Complications with the IP Network Address Translator)
-     - IP 주소의 동적 설정 방식  ☞ 유동IP
-     - 사적인 용도로 임의 사용하는 IP 주소 범위 ☞ 사설IP
-     - NAT 사용 장비 例)  ☞ 인터넷공유기(IP 공유기) 등
+3. [네트워크]  Cisco社의 경우
  
+  ㅇ Cisco社는, Access List를 매우 일반화시켜 다양한 경우에 사용하고 있음
+   
+  ㅇ Access List 사용 목적
+     - 트래픽의 제어용
+       . 가장 일반적인 용도로써, 어떤 인터페이스를 통과(in,out)하는, 패킷 Traffic을 제어
+     - 보안용
+     - 패킷의 식별용 등
 
-3. NAT의 주요 기능
+  ㅇ Access List 적용 대상
+     - Interface 에 적용  -> Access Group
+        . 이 경우의 Access List는 입력 또는 출력 인터페이스에 적용
+     - Protocol 에 적용   -> Distribute List
 
-  ㅇ IP Masquerading (IP 위장, IP 마스커레이드)
-     - 외부망에서 볼 때 내부망 여러 호스트들이 단일 NAT 서버 하나로 만 보임
-        . (외부) ↔ (NAT 1대) ↔ (多 호스트들)
-     - 단 하나의 공인 IP로 내부 모든 PC가 대표 IP 주소를 공유 사용
-     - IP 계층,전송 계층 모두에서 변환(맵핑)으로, 마치 가면(위장,Masquerading) 효과 있음
+     * 입력/출력(inbound/outbound :적용방향)에 따라,
+        . 인터페이스 및 프로토콜 각각에, 하나의 ACL 만 적용 가능
 
-  ㅇ NAT Traversal (NAT 투과/초월)
-     - (내외부 간 호스트끼리 직접 통신 연결이 가능토록 하는 기능)
-        . 인터넷을 통한 양자간 직접 음성 및 영상 통화(VoIP 등) 등에 필요
-     - Port Forwarding (포트 포워딩)
-        . 트랜스포트계층에서, 내부망 여러 호스트들이 외부망과 각각 별도로 연결짓게 할 수 있음
-           .. 서비스 포트 번호 별로 내부의 사설 IP로 지정된 호스트로 전달
-           .. 주로, 내부 서버를 외부 인터넷에 공개할 때 등에 사용 
+  ㅇ 특징
+     - 규칙 집합(차단,허용 정책)에 의해 접근제어
+        . 허용 : 차단,허용 동시에 있을 때, 우선순위가 차단 보다 높음
+        . 차단 : 따라서, 필요시 우선적으로 차단 적용이 필요함
+     - 통상, 허용(permit) 정책을 적용하면, 그외 미 언급된 모든 패킷이 거부됨이 원칙
+        . 이때, 필요 부분은 반드시 허용 처리해야 함
 
-  ㅇ Load Balancing
-     - 각 포트별로 트래픽을 균형있게 함
+  ㅇ Basic Access List
 
-  ㅇ 패킷 필터링
-     - IP주소,포트번호를 기반으로 접근제어
+     - stanadrd ACL (표준 엑세스 리스트)
+        . 출발지 IP 주소 만 기반으로 검사
+           .. IP 주소 및 네트워크 주소로  필터링 수행
+        . 표준 ACL 번호
+           .. 1~99 또는 1300~1999 (IP),  300~399 (DECnet), 800~899 (IPX),
+              1000~1099 (IPX SAP) 등
+        . 사용 문법
+           .. access-list access-list-number [permit|deny] source-address [widcard-mask]
 
+     - extended ACL (확장 엑세스 리스트)
+        . 출발지 및 목적지의 IP주소,프로토콜,포트번호 등 모두를 검사 (폭넓은 확장 가능)
+           .. IP 주소 뿐만아니라 TCP 및 UDP의 포트 번호도 검사하여 제어
+           .. ICMP code 및 type 등
+        . 확장 ACL 번호 
+           .. 100~199 또는 2000~2699 (IP), 900~999 (IPX) 등
 
-4. NAT의 방식 구분
+     * 사용 例) ☞ 아래 5.항 참조
 
-  ㅇ Basic NAT 방식 : (IP 주소의 변환 만 수행)
-     - 정적 NAT 방식 (static NAT 방식, 정적인 1:1 NAT 방식)
-        . 수동으로, 외부 공인 IP와 내부 사설 IP를 매핑 (1:1)
-     - 동적 NAT 방식 (dynamic NAT 방식)
-        . 사설 IP 주소를 풀(Pool)화하여, 소수의 공인 주소들에 동적으로 자동 매핑 (多:1)
-
-  ㅇ NAPT 또는 PAT 방식
-     - IP 주소 뿐만 아니라 포트 번호 등까지도 포함시켜 내부 호스트를 구분
-        . TCP,UDP에서는, 포트번호
-        . ICMP에서는, 질의식별자(에코 요청시 ID 필드, Query Identifier)
-
-  ※ [참고] ☞ RFC 3022 : Traditional IP Network Address Translator (Traditional NAT)
-
-  ㅇ Twice NAT 방식
-     - 출발지,목적지 모두 주소변환이 동시에 필요한 방식
-        . 例) 동일 회사 내 멀리 떨어진 두 지사 간에 인터넷 경유 연결 등
-
-  ㅇ CGNAT (Carrier Grade NAT), LSNAT (Large Scale NAT)
-     - 기존 NAPT를 통신사업자 또는 ISP에서 대규모로 사용 가능토록 확장한 방식
+  ㅇ 기타 유용한 Access List들
+     - Prefix List
+     - AS-Path List
+     - Community List
 
 
-5. NAPT (Network Address Port Translation) 또는 PAT (Port Address Translation), 그리고 문제점
+4. [네트워크]  시스코社 ACL 명령어 
 
-  ㅇ 원래는, (Basic NAT)
-     - IP 주소 변환(공인 IP 주소 → 사설 IP 주소) 만을 이용하는 basic NAT 방식 이었음
-        . 즉, IP 헤더의 목적지와 출발지 주소 만 변경하고, IP 패킷 내부에 다른 어떤 처리도 안함
+  ㅇ 주요 명령어
+     - ACL 설정 명령어  :  access-list
+     - ACL 활성화 명령  :  access-group, access-class 
+     - ACL를 설정한 내용을 보고 싶을 때의 명령어  :  show ip access-list
 
-  ㅇ 그러다가, (NAPT 또는 PAT)
-     - TCP,UDP 헤더 내 포트 번호 변환을 통해 (IP 주소 및 포트 번호를 모두 함께 결합시킴),
-     - 하나의 IP 주소 및 여러 포트 번호에 의해, 
-     - 여러 내부 호스트 주소 및 포트를 연결이 가능해짐 (IP Masquerading)
+  ㅇ 명령어 적용 순서
+     - ① ACL 설정
+        . access-list 번호를 정하고, 프로토콜별,IP주소별로,포트번호별로, 세부내역 정의 생성
+     - ② 정의된 ACL를 적용할 인터페이스를 선택
+     - ③ 선택한 해당 인터페이스에서, 정의된 ACL 번호에 대해, 적용방향을 정하고 활성화
 
-  ㅇ 이에따라, 구현이 복잡해지는 등 문제점 발생
-     - 프로토콜,응용 마다 NAT 구현이 달라짐
-     - NAT 장비 자신이 연결 마다 내부 상태 정보(내부 호스트 IP 주소,포트 번호 등)를 보존 필요 
-     - 例) SIP를 이용한 어플리케이션 등에 문제 발생 가능성
+  ㅇ 와일드카드 마스크
+     - `0` : 대응 비트 값을 반드시 검사 (반드시 일치)
+     - `1` : 대응 비트 값을 무시 (상관없음, don't care)
+     * 例) 
+        . host 1.1.1.1 은, 1.1.1.1 0.0.0.0 와 같은 표현
+        . 0.0.0.0 255.255.255.255 은, any 와 같은 표현
+
+
+5. [네트워크]  시스코社 ACL 명령어 사용 例)
+
+  ㅇ stanadrd ACL 사용 순서 例)
+     - ① (ACL 설정 정의 명령어) access-list 1 permit 192.168.1.0 0.0.0.255
+        . 매칭 기준 : 출발지 IP주소(192.168.1.0), 와일드카드마스크(0.0.0.255)
+           .. 와일드카드마스크에서, `0` : 정확히 일치, `1` : 상관 없음
+        . 오로지, 192.168.1.0 /24에서 출발한 패킷 만 허용되고, 그외 모든 패킷이 거부됨
+     - ② (특정 인터페이스 설정 모드로 진입) interface fastethernet 0/0
+     - ③ (특정 인터페이스 적용) ip access-group 1 out
+        . fastethernet 인터페이스 0/0 으로부터 나갈 수 있는 패킷은, 192.168.1.0 /24 뿐 임
+
+  ㅇ extended ACL 사용 순서 例)
+     - ① (ACL 설정 정의 명령어) access-list 101 permit icmp any host 192.168.153.102
+     - ② (특정 인터페이스 설정 모드로 진입) interface fastethernet 0/0
+     - ③ (특정 인터페이스 적용) ip access-group 101 in
 ```
